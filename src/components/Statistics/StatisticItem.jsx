@@ -1,8 +1,14 @@
+import {
+  StatisticBox,
+  StatisticText,
+  StatisticCounter,
+} from '../Statistics/StatisticItem.styled';
+
 export const StatisticItem = ({ label, percentage }) => {
   return (
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-    </li>
+    <StatisticBox>
+      <StatisticText>{label}</StatisticText>
+      <StatisticCounter>{percentage}</StatisticCounter>
+    </StatisticBox>
   );
 };

@@ -10,16 +10,7 @@ import { TransactionHistory } from '../components/TransactionHistory/Transaction
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <div>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -27,8 +18,11 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <div style={{ marginTop: '10px' }}></div>
       <Statistics title="Upload stats" stats={data} />
+      <div style={{ marginTop: '10px' }}></div>
       <FriendList friends={friends} />
+      <div style={{ marginTop: '10px' }}></div>
       <TransactionHistory items={transactions} />
     </div>
   );
