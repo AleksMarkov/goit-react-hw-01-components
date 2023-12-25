@@ -11,11 +11,9 @@ export const TransactionHistory = ({ items }) => {
   return (
     <BaseTable className="transaction-history">
       <Thead>
-        <Tr>
-          <Th>Type</Th>
-          <Th>Amount</Th>
-          <Th>Currency</Th>
-        </Tr>
+        <Th>Type</Th>
+        <Th>Amount</Th>
+        <Th>Currency</Th>
       </Thead>
 
       <Tbody>

@@ -6,7 +6,8 @@ export const BaseTable = styled.table`
   border-collapse: collapse;
   background-color: white;
   text-align: center;
-  box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
 `;
 
 export const Thead = styled.thead`
@@ -35,6 +36,9 @@ export const Th = styled.th`
 
 export const Tr = styled.tr`
   &:nth-of-type(odd) {
-    background-color: light;
+    background-color: #ffffff;
+  }
+  &:nth-of-type(even) {
+    background-color: #e5e5e5;
   }
 `;
