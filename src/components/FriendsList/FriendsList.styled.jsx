@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 export const FriendBox = styled.ul`
-  background-color: 'lightcyan';
   border-radius: 3px;
   padding: 5px;
   display: flex;

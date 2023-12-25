@@ -16,19 +16,19 @@ export const Thead = styled.thead`
   text-transform: uppercase;
 `;
 
-export const Tbody = styled.thead`
+export const Th = styled.th`
+  padding: 10px;
+  border: 1px solid gray;
+  color: dark;
+`;
+
+export const Tbody = styled.tbody`
   color: dark;
   background-color: accent;
   text-transform: capitalize;
 `;
 
 export const Td = styled.td`
-  padding: 10px;
-  border: 1px solid gray;
-  color: dark;
-`;
-
-export const Th = styled.th`
   padding: 10px;
   border: 1px solid gray;
   color: dark;

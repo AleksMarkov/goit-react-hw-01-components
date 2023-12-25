@@ -1,15 +1,24 @@
 import styled from '@emotion/styled';
 
+export const Statisticsection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  background-color: white;
+  width: 300px;
+`;
+
 export const StatisticTitle = styled.h2`
-  font-size: 8;
+  font-size: 20px;
+  text-transform: uppercase;
   font-weight: 700;
-  color: dark;
+  color: gray;
   text-align: center;
 `;
 
 export const StatisticsList = styled.ul`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2;
+  padding: 0px;
+  margin: 0px;
 `;

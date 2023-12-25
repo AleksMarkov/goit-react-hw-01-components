@@ -10,7 +10,7 @@ import { TransactionHistory } from '../components/TransactionHistory/Transaction
 
 export const App = () => {
   return (
-    <div style={{ backgroundColor: 'lightcyan' }}>
+    <div style={{ padding: '20px 0px', backgroundColor: 'lightcyan' }}>
       <Profile
         username={user.username}
         tag={user.tag}
